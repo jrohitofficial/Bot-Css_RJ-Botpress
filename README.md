@@ -4,6 +4,8 @@
 
 
 
+
+
 /* This CSS rule sets the default font size of the entire document */
 html {
   font-size: 16px;
@@ -223,9 +225,11 @@ a {
   text-decoration: underline;
 }
 
-.bpw-send-button{
-  background: #6675fa;
+.bpw-send-button {
+  background: #ff3030;
+  border-radius: 20px; /* Adjust the value as needed for the desired roundness */
 }
+
 
 
 /* Change Bot Widget Icon */
@@ -242,7 +246,7 @@ a {
   height: 50px;
   border-radius: 50%;
   background-color: #0a0c10;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 8.2);
   cursor: pointer;
   z-index: 9999;
   overflow: hidden; /* Necessary for hiding the icon overflow */
@@ -250,12 +254,12 @@ a {
 
 .bpw-floating-button::before {
   content: "";
-  background: url("https://www.livehelp100.com/wp-content/uploads/2021/11/solution-security.png");
+  background: url("https://github.com/getintorj/getintorj/blob/master/Black%20White%20Modern%20Handwritten%20Square%20Studio%20Logo.gif?raw=true");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: 35px; /* Adjust as needed */
-  width: 35px; /* Adjust as needed */
+  height: 50px; /* Adjust as needed */
+  width: 50px; /* Adjust as needed */
   position: absolute;
   top: 50%;
   left: 50%;
